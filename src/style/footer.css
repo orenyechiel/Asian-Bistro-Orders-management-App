@@ -1,0 +1,44 @@
+footer {
+    position: absolute;
+    bottom: -400px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background: black;
+    left: 0;
+    right: 0;
+    height: 500px;
+    border-radius: 60% 60% 0 0;
+    transition: 1.1s;
+    
+}
+
+footer:hover {
+    bottom: -360px
+}
+
+footer:hover span {
+    opacity: 1;
+    font-size: 20px;
+}
+
+footer div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    font-size: 22px;
+}
+
+footer p {
+    margin-bottom: 6px;
+}
+
+footer span {
+    opacity: 0;
+    transition: 1.1s;
+}
+
+footer .content img {
+    vertical-align: sub;
+}

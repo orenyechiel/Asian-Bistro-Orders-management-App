@@ -1,0 +1,43 @@
+html, body {height: 100%; width: 100%;overflow: hidden;}
+
+#root:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url(images/japan.jpg) center / cover no-repeat #000000;
+    filter: sepia(1);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#root {
+    position: relative;
+    color: aliceblue;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    display: inline;
+}
+
+header span {
+    position: absolute;
+    left: 110px;
+    top: 70px;
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    width: 100%;
+}
+
+.header {
+    margin: 10px auto;
+    position: relative;
+}

@@ -1,0 +1,18 @@
+.login-box {
+    max-width: 500px;
+    margin: 10% auto 0;
+    padding: .8rem 1.4rem 1.5rem;
+}
+
+.login-box .input-field .prefix {
+    top: 0.9rem;
+}
+
+.login-box form {
+    /* margin: 10% auto 0; */
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.login-box input {
+    color: aliceblue;
+}
