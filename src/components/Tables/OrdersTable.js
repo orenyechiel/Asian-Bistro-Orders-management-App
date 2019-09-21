@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NextOrder from './NextOrder';
-import { Orders } from '../../Context';
+import { Orders } from '../../../Context';
 
 class OrdersTable extends Component {
     static contextType = Orders;
